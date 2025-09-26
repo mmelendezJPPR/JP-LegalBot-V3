@@ -1,0 +1,16 @@
+﻿# Local sqlite databases
+*.db
+/conversaciones.db
+/database/*.db
+/database/*.sqlite
+.env
+.env.example
+
+# local indexes and pickles
+*.pkl
+*.bin
+database/metas.jsonl
+# virtual env
+venv/
+.venv/
+__pycache__/
